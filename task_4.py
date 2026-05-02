@@ -29,7 +29,8 @@ class EmployeeSalary:
 
     def salary(self):
         return self.get_hours()* self.hourly_payment
-    
+
+#пример    
 employee = EmployeeSalary(
     name="Ivanov",
     hours=None,
