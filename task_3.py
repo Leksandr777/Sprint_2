@@ -7,15 +7,11 @@ class PointsForPlace:
 
     @staticmethod
     def get_points_for_place(place):
-        if place > 100:
+        if 0 < place < 101:
             print('Баллы начисляются только первым 100 участникам')
-            return 0
-        elif place < 1:
-            print('Спортсмен не может занять нулевое или отрицательное место')
             return 0
         else:
             return 101 - place
-
 
 
 class PointsForMeters:
